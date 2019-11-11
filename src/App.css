@@ -1,22 +1,177 @@
-.App {
+.top {
+  margin-top: 96px;
+}
+
+.loading {
+  margin-top: 64px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.product-card {
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-image {
+  width: 90%;
+  height: auto;
+  border-radius: 60px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-margin {
+  margin: 10px 5px;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.card-btn:hover {
+  background: black !important;
+  color: white !important;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transition: 0.5s;
+}
+
+.card-btn {
+  background: black !important;
+  color: white !important;
+  width: 90%;
+  padding: 4px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.kart-img {
+  width: 50px;
+}
+
+.kart {
+  z-index: 2;
+  position: fixed;
+  padding: 25px;
+  background: black;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.kart:hover {
+  position: fixed;
+  padding: 35px;
+  background: black;
+  border-radius: 50%;
+  bottom: 0px;
+  right: 0px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.kart-pre {
+  z-index: 3;
+  position: fixed;
+  padding: 6px 12px;
   color: white;
+  background: green;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-link {
-  color: #09d3ac;
+.kart-popup {
+  position: fixed;
+  padding: 20px;
+  top: 48px;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 96%;
+  max-width: 1000px;
+  height: auto;
+  min-height: 100px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 1;
+}
+
+.kartlist-img {
+  width: 100px;
+  float: right;
+  padding: 10px;
+}
+
+.order {
+  margin: 10px;
+  overflow-y: scroll;
+  height: 88%;
+}
+
+@media only screen and (max-height: 500px) {
+  .order {
+    margin: 10px;
+    overflow-y: scroll;
+    height: 70%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+.checkout-btn {
+  background: black;
+  color: white;
+  border-radius: 6px;
+  padding: 16px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.checkout-btn:hover {
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.remove-btn {
+  background: #8b0000;
+  color: white;
+  border-radius: 6px;
+  padding: 0 10px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s;
+}
+
+.remove-btn:hover {
+  padding: 6px 16px;
+  transition: 0.5s;
 }

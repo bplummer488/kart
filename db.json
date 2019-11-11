@@ -1,5 +1,116 @@
-[
-  {
-    "name": "cheese"
-  }
-]
+{
+  "sides": [
+    {
+      "id": 1,
+      "title": "Cheese Sticks",
+      "image": "",
+      "price": "4.99"
+    },
+    {
+      "id": 2,
+      "title": "Onion Rings",
+      "image": "",
+      "price": "4.99"
+    },
+    {
+      "id": 3,
+      "title": "Fried Mushrooms",
+      "image": "",
+      "price": "4.99"
+    },
+    {
+      "id": 4,
+      "title": "Curly Fries",
+      "image": "",
+      "price": "4.99"
+    },
+    {
+      "id": 5,
+      "title": "Steak Fries",
+      "image": "",
+      "price": "4.99"
+    },
+    {
+      "id": 6,
+      "title": "Fried Potato Mash",
+      "image": "",
+      "price": "4.99"
+    }
+  ],
+  "sandwiches": [
+    {
+      "id": 11,
+      "title": "Cheese Burger",
+      "image": "",
+      "price": "10.99"
+    },
+    {
+      "id": 12,
+      "title": "Grilled Chicken",
+      "image": "",
+      "price": "10.99"
+    },
+    {
+      "id": 13,
+      "title": "Fried Chicken",
+      "image": "",
+      "price": "10.99"
+    },
+    {
+      "id": 14,
+      "title": "Steak and Cheese",
+      "image": "",
+      "price": "10.99"
+    },
+    {
+      "id": 15,
+      "title": "Hot Ham and Cheese",
+      "image": "",
+      "price": "10.99"
+    },
+    {
+      "id": 16,
+      "title": "Grilled Cheese",
+      "image": "",
+      "price": "10.99"
+    }
+  ],
+  "desserts": [
+    {
+      "id": 21,
+      "title": "Cupcake",
+      "image": "",
+      "price": "3.99"
+    },
+    {
+      "id": 22,
+      "title": "Cookies",
+      "image": "",
+      "price": "3.99"
+    },
+    {
+      "id": 23,
+      "title": "Ice Cream",
+      "image": "",
+      "price": "3.99"
+    },
+    {
+      "id": 24,
+      "title": "Cake Pops",
+      "image": "",
+      "price": "3.99"
+    },
+    {
+      "id": 25,
+      "title": "Muffins",
+      "image": "",
+      "price": "3.99"
+    },
+    {
+      "id": 26,
+      "title": "Brownies",
+      "image": "",
+      "price": "3.99"
+    }
+  ]
+}
